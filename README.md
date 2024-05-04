@@ -1,8 +1,8 @@
-## Networkanalyzer
+# Networkanalyzer
 
 This Python script is designed to parse network packets from a hexdump file and extract various protocol headers and data from them. It supports parsing of Ethernet, IPv4, IPv6, ARP, TCP, UDP, ICMP, HTTP, and FTP protocols.
 
-# Usage
+## Usage
 
 1. Input: The input hexdump file should contain hexadecimal representations of network packets, with each packet separated by a blank line.
 2. Output: The script parses each packet and prints out structured information about its headers and data.
