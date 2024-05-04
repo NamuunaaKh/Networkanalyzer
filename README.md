@@ -7,7 +7,7 @@ This Python script is designed to parse network packets from a hexdump file and 
 1. Input: The input hexdump file should contain hexadecimal representations of network packets, with each packet separated by a blank line.
 2. Output: The script parses each packet and prints out structured information about its headers and data.
 
-# Structure
+## Structure
 
 - `main()`: The main function of the script, responsible for orchestrating the parsing process.
 - `read_hexdump(file_path)`: Reads the hexdump file and extracts individual frames (packets) as byte arrays.
@@ -24,11 +24,11 @@ This Python script is designed to parse network packets from a hexdump file and 
 - `format_output(data)`: Formats the parsed data into a human-readable format for display.
 - `calculate_checksum(data)`: Calculates the checksum of the given data using the Internet checksum algorithm.
 
-# Dependencies
+## Dependencies
 
 The script relies on the `socket`, `ipaddress`, and `binascii` modules for various networking operations and conversions.
 
-# Execution
+## Execution
 
 To run the script, ensure you have a hexdump file (`hexdmp.txt` by default) containing the network packets. Then execute the script using Python:
 
